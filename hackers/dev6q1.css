@@ -1,0 +1,26 @@
+section {
+    display: flex;
+}
+
+.joueur {
+    width: 210px;
+    position: relative;
+    padding: 5px;
+    border: black 1px solid;
+    margin: 5px;
+
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+img {
+    width: 200px;
+}
+
+/* Adapté de https://www.w3schools.com/howto/howto_css_image_text.asp */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
